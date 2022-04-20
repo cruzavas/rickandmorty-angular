@@ -1,0 +1,12 @@
+<app-loading *ngIf="loading"></app-loading>
+<div class="row d-flex justify-content-center">
+    <div *ngFor="let personaje of listpersonajes" class="col-lg-3 d-flex justify-content-center" style="margin: 30px;">
+        <app-card-personaje [user]="personaje"></app-card-personaje>
+    </div>
+    <div class="col-lg-12 d-flex justify-content-center">
+        <button [disabled]="prev === undefined" class="btn btn-xl m-3" (click)="getPrevpersonajes()">&laquo;
+            Anterior</button>
+        <button [disabled]="next === undefined" class="btn btn-xl m-3" (click)="getNextpersonajes()">Siguiente
+            &raquo;</button>
+    </div>
+</div>

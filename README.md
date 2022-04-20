@@ -1,6 +1,8 @@
-# Apppersonajes
+## [AppPersonajes](https://rickandmorty-angular.netlify.app/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+
+This project was part of an Angular course that I am taking but I changed the api because was no longer available the api of example and add some new feature.
 
 ## Development server
 
